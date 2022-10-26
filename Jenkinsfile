@@ -1,6 +1,6 @@
 pipeline {
-  agent any
   call C:/Users/apujol/PycharmProjects/appium_python/venv/Scripts/activate.bat
+  agent any
   stages {
     stage('version') {
       steps {
