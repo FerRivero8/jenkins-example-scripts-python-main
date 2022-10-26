@@ -1,4 +1,3 @@
-call C:/Users/apujol/PycharmProjects/appium_python/venv/Scripts/activate.bat
 pipeline {
   agent any
   stages {
