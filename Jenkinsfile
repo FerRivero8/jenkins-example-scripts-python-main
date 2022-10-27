@@ -11,5 +11,10 @@ pipeline {
         bat 'python hello.py'
       }
     }
+    stage('test_dummy') {
+      steps {
+        bat 'echo $DUMMY'
+      }
+    }
   }
 }
