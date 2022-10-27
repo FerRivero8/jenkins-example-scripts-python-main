@@ -11,5 +11,10 @@ pipeline {
         bat 'python hello.py'
       }
     }
+    stage('Mostrar_pip') {
+      steps {
+        bat 'pip list'
+      }
+    }
   }
 }
