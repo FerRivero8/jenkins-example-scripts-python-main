@@ -8,12 +8,7 @@ pipeline {
     }
     stage('hello') {
       steps {
-        bat 'C:\\Users\\friverob\\AppData\\Local\\Programs\\Python\\Python310\\python.exe hello.py'
-      }
-    }
-    stage('test_dummy') {
-      steps {
-        bat 'echo DUMMY'
+        bat 'python hello.py'
       }
     }
   }
