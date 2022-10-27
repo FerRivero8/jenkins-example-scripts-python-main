@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        bat 'python --version'
+        bat 'C:\Users\friverob\AppData\Local\Microsoft\WindowsApps\python.exe --version'
       }
     }
     stage('hello') {
       steps {
-        bat 'python hello.py'
+        bat 'C:\Users\friverob\AppData\Local\Microsoft\WindowsApps\python.exe hello.py'
       }
     }
   }
