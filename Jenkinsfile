@@ -11,9 +11,9 @@ pipeline {
         bat 'python hello.py'
       }
     }
-    stage('Mostrar_pip') {
+    stage('Pytest') {
       steps {
-        bat 'pip list'
+        bat 'pytest -v hello.py'
       }
     }
   }
