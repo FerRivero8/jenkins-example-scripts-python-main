@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Mostrar_pip') {
       steps {
-        bat 'pytest --version'
+        bat 'pip list'
       }
     }
   }
