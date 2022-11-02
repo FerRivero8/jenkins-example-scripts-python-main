@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Pytest') {
       steps {
-        bat 'pytest -v hello.py'
+        bat 'pytest --version'
       }
     }
   }
